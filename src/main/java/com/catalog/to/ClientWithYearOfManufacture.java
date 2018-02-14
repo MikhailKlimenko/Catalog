@@ -6,7 +6,7 @@ import io.swagger.annotations.ApiModelProperty;
 import java.time.LocalDate;
 import java.time.Year;
 
-@ApiModel(value = "to.ClientWithYearOfManufacture")
+@ApiModel(value = "ClientWithYearOfManufacture(transfer object)")
 public class ClientWithYearOfManufacture {
 
     @ApiModelProperty(notes = "The database generated ClientWithYearOfManufacture ID", hidden = true)
@@ -17,7 +17,7 @@ public class ClientWithYearOfManufacture {
     private LocalDate birthDate;
     @ApiModelProperty(notes = "The car of client", position = 2, example = "Ford Mustang")
     private String car;
-    @ApiModelProperty(notes = "The year of car", position = 3, example = "1988")
+    @ApiModelProperty(notes = "The year of manufactory of car", position = 3, example = "1988")
     private Year yearOfManufactury;
 
     public ClientWithYearOfManufacture() {

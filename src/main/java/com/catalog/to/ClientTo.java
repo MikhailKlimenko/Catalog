@@ -5,7 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 import java.util.Objects;
 
-@ApiModel(value = "to.ClientTo")
+@ApiModel(value = "ClientTo(transfer object)")
 public class ClientTo {
     @ApiModelProperty(notes = "The database generated ClientTo ID", hidden = true)
     private Integer id;
