@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>test.RuSoft</groupId>
-    <artifactId>test.RuSoft</artifactId>
+    <artifactId>api</artifactId>
     <packaging>war</packaging>
-    <version>1.0</version>
     <name>Catalog</name>
 
     <parent>
